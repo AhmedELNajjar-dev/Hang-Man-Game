@@ -27,7 +27,7 @@ lettersArray.forEach(letter => {
 
 // Object Of Words + Categories
 const words = {
-  programming: ["php", "javascript", "go", "scala", "fortran", "r", "mysql", "python"],
+  programming: ["php", "javascript", "go", "scala", "fortran", "HTML", "mysql", "python"],
   movies: ["Prestige", "Inception", "Parasite", "Interstellar", "Whiplash", "Memento", "Coco", "Up"],
   people: ["Albert Einstein", "Hitchcock", "Alexander", "Cleopatra", "Mahatma Ghandi"],
   countries: ["Syria", "Palestine", "Yemen", "Egypt", "Bahrain", "Qatar"]

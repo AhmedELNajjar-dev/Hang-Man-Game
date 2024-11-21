@@ -1,10 +1,18 @@
 * {
     box-sizing: border-box;
+    
   }
   body {
     font-family: Tahoma, Arial;
+    background-image: url("art-black-and-white-black-and-white-castle-wallpaper-preview.jpg");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-position-y: 0px;
   }
   .container {
+    
+    padding-top: 80px;
     margin: 20px auto;
     width: 1000px
   }
@@ -20,6 +28,9 @@
   .game-info .game-name {
     flex: 1;
   }
+  .game-name{
+    font-size: 20px;
+  }
   .game-info .category {
     flex: 1;
     text-align: right;
@@ -34,6 +45,7 @@
     background-color: #F8F8F8;
     padding: 20px;
     height: 324px;
+    border-radius: 20%;
   }
   .hangman-draw .the-draw {
     width: 60px;
@@ -212,6 +224,7 @@
     display: flex;
     justify-content: center;
     min-height: 104px;
+    border-radius: 20px;
   }
   .letters-guess span {
     width: 60px;
@@ -242,6 +255,7 @@
     transform: translate(-50%, -50%);
   }
   .popup {
+    margin-top: 8%;
     position: fixed;
     background-color: #009688;
     padding: 100px 20px;
